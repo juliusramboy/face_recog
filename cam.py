@@ -5,7 +5,8 @@ import cv2
 app = Flask(__name__)
 camera = cv2.VideoCapture(0) 
 
-# gen frames 
+# gen frames pip
+
 def gen_frames():
     
     while True:
